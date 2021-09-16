@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script>
+        change=(p)=>{
+             for (let element of document.getElementsByClassName("col-sm-3")){
+            element.style.visibility = "visible";
+        }
+        for (let element of document.getElementsByClassName("col-sm-3")){
+            if(element.id!=p.value){
+            element.style.visibility = "hidden";
+        }
+        }
+       
+        }
+    </script>
+  </head>
+  <body>
+    <div class="border border-radius-2 container bg-light" style="font-size:small">
+  
+       <div class="d-flex p-4 justify-content-center">
+           <input type="text" class="form-control" placeholder="SEARCH EVENTS" onchange="change(this)"/>
+       </div>
+    <div class="row p-2">
+                <div id="1" class="col-sm-3">
+                    <div class="card">
+                        <div class="card-title text-center">Event 1</div>
+                        <div class="card-body">  
+                        <div class="row">                    
+                            <div class="col-sm">     
+                                 <img class="img-thumbnail" src="https://thumbs.dreamstime.com/b/african-american-man-portrait-worker-id-badge-driver-licence-passport-photo-dark-skin-person-male-character-icon-social-media-188107522.jpg"></img>
+                                </div>
+                                <div class="col-sm">
+                                    <p class="rw-light">23-May-2020</p>
+                                    <p>Seats available:23</p>
+                                    <button type="button" class="btn btn-light">BookNow</button>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            <div id="2" class="col-sm-3">
+                    <div class="card">
+                        <div class="card-title text-center">Event 2</div>
+                        <div class="card-body">  
+                        <div class="row">                    
+                            <div class="col-sm">     
+                                 <img class="img-thumbnail" src="https://thumbs.dreamstime.com/b/african-american-man-portrait-worker-id-badge-driver-licence-passport-photo-dark-skin-person-male-character-icon-social-media-188107522.jpg"></img>
+                                </div>
+                                <div class="col-sm">
+                                    <p>23-Sep-2021</p>
+                                    <p>Seats available:0</p>
+                                    <button type="button" class="btn btn-light">Sold Out</button>
+                                </div>
+                             </div>
+                        </div>
+                    </div>  
+            </div>
+                     <div id="3" class="col-sm-3">
+                    <div class="card">
+                        <div class="card-title text-center">Event 3</div>
+                        <div class="card-body">  
+                        <div class="row">                    
+                            <div class="col-sm">     
+                                 <img class="img-thumbnail" src="https://thumbs.dreamstime.com/b/african-american-man-portrait-worker-id-badge-driver-licence-passport-photo-dark-skin-person-male-character-icon-social-media-188107522.jpg"></img>
+                                </div>
+                                <div class="col-sm">
+                                    <p>23-Sep-2021</p>
+                                    <p>Seats available:0</p>
+                                    <button type="button" class="btn btn-light">Sold Out</button>
+                                </div>
+                             </div>
+                        </div>
+                    </div>  
+                     </div>
+                     <div id="4" class="col-sm-3">
+                    <div class="card">
+                        <div class="card-title text-center">Event 3</div>
+                        <div class="card-body">  
+                        <div class="row">                    
+                            <div class="col-sm">     
+                                 <img class="img-thumbnail" src="https://thumbs.dreamstime.com/b/african-american-man-portrait-worker-id-badge-driver-licence-passport-photo-dark-skin-person-male-character-icon-social-media-188107522.jpg"></img>
+                                </div>
+                                <div class="col-sm">
+                                    <p>23-Sep-2021</p>
+                                    <p>Seats available:3</p>
+                                    <button type="button" class="btn btn-light">BookNow</button>
+                                </div>
+                             </div>
+                        </div>
+                    </div>   
+            </div>         
+                     <div class="row p-2">
+                <div id="5" class="col-sm-3">
+                    <div class="card">
+                        <div class="card-title text-center">Event 1</div>
+                        <div class="card-body">  
+                        <div class="row">                    
+                            <div class="col-sm">     
+                                 <img class="img-thumbnail" src="https://thumbs.dreamstime.com/b/african-american-man-portrait-worker-id-badge-driver-licence-passport-photo-dark-skin-person-male-character-icon-social-media-188107522.jpg"></img>
+                                </div>
+                                <div class="col-sm">
+                                    <p class="rw-light">23-May-2020</p>
+                                    <p>Seats available:23</p>
+                                    <button type="button" class="btn btn-light">BookNow</button>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            <div id="6" class="col-sm-3">
+                    <div class="card">
+                        <div class="card-title text-center">Event 2</div>
+                        <div class="card-body">  
+                        <div class="row">                    
+                            <div class="col-sm">     
+                                 <img class="img-thumbnail" src="https://thumbs.dreamstime.com/b/african-american-man-portrait-worker-id-badge-driver-licence-passport-photo-dark-skin-person-male-character-icon-social-media-188107522.jpg"></img>
+                                </div>
+                                <div class="col-sm">
+                                    <p>23-Sep-2021</p>
+                                    <p>Seats available:0</p>
+                                    <button type="button" class="btn btn-light">Sold Out</button>
+                                </div>
+                             </div>
+                        </div>
+                    </div>  
+            </div>
+                     <div id="7" class="col-sm-3">
+                    <div class="card">
+                        <div class="card-title text-center">Event 3</div>
+                        <div class="card-body">  
+                        <div class="row">                    
+                            <div class="col-sm">     
+                                 <img class="img-thumbnail" src="https://thumbs.dreamstime.com/b/african-american-man-portrait-worker-id-badge-driver-licence-passport-photo-dark-skin-person-male-character-icon-social-media-188107522.jpg"></img>
+                                </div>
+                                <div class="col-sm">
+                                    <p>23-Sep-2021</p>
+                                    <p>Seats available:0</p>
+                                    <button type="button" class="btn btn-light">Sold Out</button>
+                                </div>
+                             </div>
+                        </div>
+                    </div>  
+                     </div>
+                     <div id="8" class="col-sm-3">
+                    <div class="card">
+                        <div class="card-title text-center">Event 3</div>
+                        <div class="card-body">  
+                        <div class="row">                    
+                            <div class="col-sm">     
+                                 <img class="img-thumbnail" src="https://thumbs.dreamstime.com/b/african-american-man-portrait-worker-id-badge-driver-licence-passport-photo-dark-skin-person-male-character-icon-social-media-188107522.jpg"></img>
+                                </div>
+                                <div class="col-sm">
+                                    <p>23-Sep-2021</p>
+                                    <p>Seats available:3</p>
+                                    <button type="button" class="btn btn-light">BookNow</button>
+                                </div>
+                             </div>
+                        </div>
+                    </div>            
+
+    </div>
+                     </div>
+  </body>
+</html>
